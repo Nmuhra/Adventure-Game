@@ -31,4 +31,8 @@ if choice == "fight":
   print("Game Over")
 if choice == "drive off":
   print("you managed to escape, however, Ted is injured")
-
+  choice_2 = input("you are stuck at a point where you have to pick left or right, left is a lake, right is a forest:\n").lower()
+  if choice == "left":
+    print("you managed to find a boat and escape the chimps")
+  if choice == "right":
+    print("the chimps caught up to you and eliminated you from the game.\nGame Over")
